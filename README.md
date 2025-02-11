@@ -1,6 +1,15 @@
-# climate_prediction_project1
-This is group 6's project 1 on the topic of "Hurricanes, Climate and Clustering"
-The steps and objectives of the project:
-- Using machine learning to determine better clustering proxies (linear & XGBoost Feature Importance). 
-- Test clustering proxies and multiple clustering methods (DBSCAN, Gaussian Mixture, OPTICS, Spectral, Autoencoder, Self-organizing map). 
-- Assess similarities within clusters via other storm characteristics (Severity) e.g. PDI 
+# **Climate Prediction Project 1**  
+### *Hurricanes, Climate, and Clustering*  
+
+This repository contains **Group 6's Project 1**, focused on analyzing hurricane features and exploring clustering methods. All code implementation and explanations can be found in Project1_final_code.ipynb.
+
+## **Project Objectives and Workflow**  
+1. **Feature Selection & Analysis**  
+   - Utilize linear regression and machine learning methods to identify key hurricane features based on **PDI (Power Dissipation Index)**.  
+
+2. **Clustering Approaches**  
+   - Apply and compare various clustering algorithms, including K-Means, agglomerative clustering, spectral clustering, and BIRCH clustering
+
+3. **Cluster Evaluation & Visualization**  
+   - Assess clustering performance using SSD (sum of squared distances) and Sihouette Score 
+   - Visualize the resulting clusters for interpretability and insights
